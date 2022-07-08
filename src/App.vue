@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <OLCesium />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OLCesium from "@/components/OLCesium.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OLCesium
   }
 }
 </script>
