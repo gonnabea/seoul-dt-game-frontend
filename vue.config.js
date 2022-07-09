@@ -7,6 +7,7 @@ module.exports = defineConfig({
       new webpack.DefinePlugin({
         CESIUM_BASE_URL: JSON.stringify('./')
       })
-    ]
+    ],
+    
   }
 })
